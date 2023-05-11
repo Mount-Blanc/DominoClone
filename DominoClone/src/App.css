@@ -1,3 +1,17 @@
+body {
+  margin:0px;
+}
+
 .primary-nav {
   display: flex;
+}
+.primary-nav-container {
+ background-color: rgb(0, 100, 145)
+}
+.options {
+  display: flex;
+  list-style: none;
+}
+header, a {
+  color: white;
 }

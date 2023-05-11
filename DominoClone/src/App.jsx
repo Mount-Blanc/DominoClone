@@ -5,9 +5,9 @@ function App() {
   return (
     <>
   <header>
-    <div>
+    <div className='primary-nav-container'>
       <nav className="primary-nav">
-        <ul>
+        <ul className='options'>
           <li>
             <a href="">Order Online</a>
           </li>
@@ -27,7 +27,7 @@ function App() {
             <a href="">Rewards</a>
           </li>
         </ul>
-        <ul>
+        <ul className='options'>
           <li>Earn Points</li>
           <li>Sign in and Earn Rewards</li>
           <li>Cart</li>
