@@ -54,7 +54,7 @@ function App() {
           <img className='image-pizza' src={pizza1}></img>
           <div></div>
         </div>
-        <div>
+        <div >
           <img className='image-pizza' src={pizza2}></img>
           <div></div>
         </div>
@@ -63,6 +63,9 @@ function App() {
         </div>
         </div>
       </main>
+      <footer>
+        <div></div>
+      </footer>
     </>
   )
 }
