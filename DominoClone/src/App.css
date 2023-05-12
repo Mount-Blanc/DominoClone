@@ -27,6 +27,7 @@ text-decoration: none;
 .options {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 header, a {
   color: white;
