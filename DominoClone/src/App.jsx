@@ -33,8 +33,22 @@ function App() {
           <li>Cart</li>
         </ul>
       </nav>
+      
     </div>
   </header>
+  <main>
+        <section>
+          <div>
+            <h1>Start Your Order</h1>
+            <div>
+              <a href=''>Delivery</a>
+              <a href=''>Carryout</a>
+            </div>
+          </div>
+        </section>
+        <div></div>
+        <div></div>
+      </main>
     </>
   )
 }
