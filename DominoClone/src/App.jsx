@@ -49,16 +49,18 @@ function App() {
             </div>
           </div>
         </section>
-        <div>
-          <img src={pizza1}></img>
+        <div className='grid'>
+        <div className='grid-1'>
+          <img className='image-pizza' src={pizza1}></img>
           <div></div>
         </div>
         <div>
-          <img src={pizza2}></img>
+          <img className='image-pizza' src={pizza2}></img>
           <div></div>
         </div>
         <div>
-          <img src={pizza3}></img>
+          <img className='image-pizza' src={pizza3}></img>
+        </div>
         </div>
       </main>
     </>

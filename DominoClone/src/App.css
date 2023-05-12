@@ -34,3 +34,22 @@ header, a {
 .start {
   color:rgb(0, 100, 145)
 }
+.image-pizza{
+  object-position: center center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 57% auto;
+ grid-template-areas:"hero   side1 " "hero   side2 " "footer footer";
+   gap:0.625rem;
+  margin-bottom: 1rem;
+
+}
+.grid-1 {
+  grid-area: hero;
+}
+header {
+  position: fixed;
+  top:0;
+  width:100%
+}
