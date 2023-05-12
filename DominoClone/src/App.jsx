@@ -1,4 +1,7 @@
 import './App.css'
+import pizza1 from './assets/pizza1.webp'
+import pizza2 from './assets/pizza2.webp'
+import pizza3 from './assets/pizza3.webp'
 
 function App() {
 
@@ -46,8 +49,17 @@ function App() {
             </div>
           </div>
         </section>
-        <div></div>
-        <div></div>
+        <div>
+          <img src={pizza1}></img>
+          <div></div>
+        </div>
+        <div>
+          <img src={pizza2}></img>
+          <div></div>
+        </div>
+        <div>
+          <img src={pizza3}></img>
+        </div>
       </main>
     </>
   )
