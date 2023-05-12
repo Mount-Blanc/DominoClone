@@ -8,22 +8,22 @@ function App() {
     <div className='primary-nav-container'>
       <nav className="primary-nav">
         <ul className='options'>
-          <li>
+          <li className='primary-nav-items'>
             <a href="">Order Online</a>
           </li>
-          <li>
+          <li className='primary-nav-items'>
             <a href="">Locations</a>
           </li>
-          <li>
+          <li className='primary-nav-items'>
             <a href="">Menu</a>
           </li>
-          <li>
+          <li className='primary-nav-items'>
             <a href="">Coupons</a>
           </li>
-          <li>
+          <li className='primary-nav-items'>
             <a href="">Tracker</a>
           </li>
-          <li>
+          <li className='primary-nav-items'>
             <a href="">Rewards</a>
           </li>
         </ul>
