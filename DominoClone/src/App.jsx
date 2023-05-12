@@ -39,10 +39,10 @@ function App() {
   <main>
         <section>
           <div>
-            <h1>Start Your Order</h1>
+            <h1 className='start'>Start Your Order</h1>
             <div>
-              <a href=''>Delivery</a>
-              <a href=''>Carryout</a>
+              <a className='color' href=''>Delivery</a>
+              <a className='color' href=''>Carryout</a>
             </div>
           </div>
         </section>

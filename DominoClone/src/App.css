@@ -1,6 +1,12 @@
 body {
   margin:0px;
 }
+.color {
+  background-color:rgb(227, 24, 55);
+  cursor: pointer;
+  padding: 0.55556em 0.55556em 0.5em;
+  width: 11.25rem;
+}
 
 .primary-nav {
   display: flex;
@@ -24,4 +30,7 @@ text-decoration: none;
 }
 header, a {
   color: white;
+}
+.start {
+  color:rgb(0, 100, 145)
 }
